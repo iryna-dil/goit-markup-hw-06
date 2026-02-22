@@ -92,6 +92,7 @@ ul {
 .header .header-nav .logo {
   text-decoration: none;
   flex-shrink: 0;
+  padding: 16px 16px 16px 0;
 }
 
 .header .header-address {
@@ -1092,19 +1093,6 @@ h2 {
 
 .header {
   width: 100%;
-  height: 56px;
-}
-
-@media (min-width: 768px) {
-  .header {
-    height: 72px;
-  }
-}
-
-@media (min-width: 1158px) {
-  .header {
-    height: 72px;
-  }
 }
 
 .header .container {
@@ -1608,6 +1596,7 @@ h1 {
 
 .footer .container {
   max-width: 320px;
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 72px;
